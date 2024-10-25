@@ -30,7 +30,7 @@ function SearchBar() {
           handleSearch(e.target.value);
         }}
         placeholder="Search"
-        className="pl-8"
+        className="pl-8 font-[family-name:var(--poppins)]"
         defaultValue={searchParams.get('search')?.toString()}
       />
     </div>
