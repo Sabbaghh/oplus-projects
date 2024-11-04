@@ -13,7 +13,7 @@ function SearchBar() {
     // Set a timer to trigger the search query after 1 second of no typing
     const timeoutId = setTimeout(() => {
       replaceQueryParams('search', term);
-    }, 1000);
+    }, 300);
 
     // Clear the timeout if the user types again before 1 second
     return () => clearTimeout(timeoutId);

@@ -3,21 +3,26 @@ import React, { useState, useEffect } from 'react';
 import TextRegular from '@/components/text/TextRegular';
 import { useSearchParams } from 'next/navigation';
 import useQueryParams from '@/components/ProjectsPage/useQueryParams';
+import {
+  PROJECT_TYPE_ALL,
+  PROJECT_TYPE_EVENTS,
+  PROJECT_TYPE_EXHIBITION,
+} from '@/constants/ProjectTypes';
 function Tabs() {
   const { replaceQueryParams } = useQueryParams();
   const [tabs, toggleTabs] = useState({
     tabs: [
       {
         tabName: 'All',
-        queryValue: 'All',
+        queryValue: PROJECT_TYPE_ALL,
       },
       {
         tabName: 'Events',
-        queryValue: 'events',
+        queryValue: PROJECT_TYPE_EVENTS,
       },
       {
         tabName: 'Exhibition',
-        queryValue: 'Exhibition',
+        queryValue: PROJECT_TYPE_EXHIBITION,
       },
     ],
     activeTab: 'All',
@@ -25,12 +30,12 @@ function Tabs() {
 
   const searchParams = useSearchParams();
   useEffect(() => {
-    const currentActiveQuery = searchParams.get('type') || 'All';
+    const currentActiveQuery = searchParams.get('projectType') || 'All';
     toggleTabs({ ...tabs, activeTab: currentActiveQuery?.toString() });
   }, []);
   const trigggerTab = (queryValue: string) => {
     toggleTabs({ ...tabs, activeTab: queryValue });
-    replaceQueryParams('type', queryValue);
+    replaceQueryParams('projectType', queryValue);
   };
   return (
     <>

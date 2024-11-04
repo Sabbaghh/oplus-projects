@@ -4,7 +4,7 @@ import TextRegular from '@/components/text/TextRegular';
 
 function Hero() {
   return (
-    <section className="container m-auto flex flex-col h-[50vh] justify-center">
+    <section className="container m-auto flex flex-col h-[50vh] justify-center mb-40">
       <Title
         text="Projects"
         withAnimation
