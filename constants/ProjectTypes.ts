@@ -1,4 +1,4 @@
-const PROJECT_TYPE_ALL = 'All';
-const PROJECT_TYPE_EVENTS = 'Events';
-const PROJECT_TYPE_EXHIBITION = 'Exhibition';
+const PROJECT_TYPE_ALL = '';
+const PROJECT_TYPE_EVENTS = 'events';
+const PROJECT_TYPE_EXHIBITION = 'exhibitions';
 export { PROJECT_TYPE_ALL, PROJECT_TYPE_EVENTS, PROJECT_TYPE_EXHIBITION };

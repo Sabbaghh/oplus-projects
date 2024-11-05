@@ -31,7 +31,6 @@ const ItemList: React.FC = () => {
   const [loading, setLoading] = useState<boolean>(true);
   const [page, setPage] = useState<number>(1);
   const [hasMore, setHasMore] = useState<boolean>(true);
-
   const projectType = searchParams.get('projectType');
   const searchValue = searchParams.get('search');
 
@@ -42,7 +41,7 @@ const ItemList: React.FC = () => {
 
       if (projectType) {
         // If projectType exists, call the type-specific endpoint
-        url = `${process.env.NEXT_PUBLIC_API_URI}/projects/type/${projectType}?page=${pageNum}`;
+        url = `${process.env.NEXT_PUBLIC_API_URI}/projects?type=${projectType}&page=${pageNum}`;
       } else if (searchValue) {
         // If searchValue exists, call the search endpoint
         url = `${process.env.NEXT_PUBLIC_API_URI}/projects/search?q=${searchValue}&page=${pageNum}`;
@@ -90,14 +89,19 @@ const ItemList: React.FC = () => {
 
   return (
     <>
-      <section className="container m-auto px-5 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 sm:gap-5 gap-16 mb-12">
+      <section className="container m-auto px-5 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 sm:gap-5 gap-16 mb-12  min-h-96">
         {loading && data.length === 0 ? (
-          Array.from({ length: 3 }).map((_, index) => (
-            <SkeletonCard key={index} />
+          Array.from({ length: 6 }).map((_, index) => (
+            <div key={index}>
+              <SkeletonCard />
+            </div>
           ))
         ) : data.length > 0 ? (
-          data.map(({ id, name, image, type, date }) => (
-            <div key={id} className="cursor-pointer">
+          data.map(({ id, name, image, type, date }, index) => (
+            <div
+              key={`${id}-${index}-${Math.random()}`}
+              className="cursor-pointer"
+            >
               <div className="w-full h-72 relative rounded-md overflow-hidden group">
                 <Image
                   className="object-cover transition-transform duration-300 transform sm:group-hover:scale-110"
@@ -130,18 +134,21 @@ const ItemList: React.FC = () => {
           <p>No results found</p>
         )}
       </section>
+      <section className="min-h-96">
+        {loading && data.length > 0 && (
+          <div className="container m-auto px-5 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 sm:gap-5 gap-16 mb-12">
+            {Array.from({ length: 6 }).map((_, index) => (
+              <div key={index}>
+                <SkeletonCard />
+              </div>
+            ))}
+          </div>
+        )}
 
-      {loading && data.length > 0 && (
-        <div className="container m-auto px-5 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 sm:gap-5 gap-16 mb-12">
-          <SkeletonCard />
-          <SkeletonCard />
-          <SkeletonCard />
-        </div>
-      )}
-
-      {!hasMore && !loading && data.length > 0 && (
-        <p className="text-center">No more projects to load.</p>
-      )}
+        {!hasMore && !loading && data.length > 0 && (
+          <p className="text-center">No more projects to load.</p>
+        )}
+      </section>
     </>
   );
 };

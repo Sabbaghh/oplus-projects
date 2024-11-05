@@ -25,7 +25,7 @@ function Tabs() {
         queryValue: PROJECT_TYPE_EXHIBITION,
       },
     ],
-    activeTab: 'All',
+    activeTab: PROJECT_TYPE_ALL,
   });
 
   const searchParams = useSearchParams();

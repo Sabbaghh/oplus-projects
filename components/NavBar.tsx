@@ -30,7 +30,7 @@ export default function StickyNav() {
 
   return (
     <>
-      <nav className="sticky top-0 z-50 bg-white pt-5">
+      <nav className="sticky top-0 z-40 bg-white pt-5">
         <div className="container mx-auto px-6 py-3 flex justify-between items-center">
           <Link href="/" className="text-xl font-bold">
             Logo

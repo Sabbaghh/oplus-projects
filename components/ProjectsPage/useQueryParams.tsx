@@ -22,18 +22,19 @@ const useQueryParams = (): UseQueryParams => {
     return params;
   };
 
-  // add new query
+  // Add new query
   const setQueryParam = (key: string, value?: string) => {
     const params = setParam(key, value);
-    replace(`${pathname}?${params.toString()}`);
+    replace(`${pathname}?${params.toString()}`, { scroll: false }); // Prevents scrolling to top
   };
-  // replace the whole query with new one
+
+  // Replace the whole query with a new one
   const replaceQueryParams = (key: string, value?: string) => {
     const params = setParam(key, value);
     if (params.get(key)) {
-      replace(`${pathname}?${key}=${params.get(key)}`);
+      replace(`${pathname}?${key}=${params.get(key)}`, { scroll: false }); // Prevents scrolling to top
     } else {
-      replace(`${pathname}`);
+      replace(`${pathname}`, { scroll: false });
     }
   };
 
