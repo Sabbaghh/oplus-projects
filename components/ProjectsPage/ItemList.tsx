@@ -7,6 +7,7 @@ import axios from 'axios';
 import { useSearchParams } from 'next/navigation';
 import TextRegular from '@/components/text/TextRegular';
 import moment from 'moment';
+import Link from 'next/link';
 
 interface ProjectType {
   name: string;
@@ -98,7 +99,8 @@ const ItemList: React.FC = () => {
           ))
         ) : data.length > 0 ? (
           data.map(({ id, name, image, type, date }, index) => (
-            <div
+            <Link
+              href={`/project/${id}`}
               key={`${id}-${index}-${Math.random()}`}
               className="cursor-pointer"
             >
@@ -128,7 +130,7 @@ const ItemList: React.FC = () => {
                   {type.name}
                 </TextRegular>
               </div>
-            </div>
+            </Link>
           ))
         ) : (
           <p>No results found</p>

@@ -1,0 +1,121 @@
+{
+    "id": 1,
+    "name": "Al Marmoom Film In The Desert",
+    "slug": "road-show",
+    "client_id": 1,
+    "type_id": 2,
+    "region": "local",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "image": "images/projects/covers/01JBVGBYPXM8S13BRBK0M8VH4M.jpg",
+    "gallery": [
+        "images/projects/01JC5B510ME8Y122D3D351WR65.jpg",
+        "images/projects/01JC5B511W1KTYYPKFJ0TNGG41.jpg",
+        "images/projects/01JC5B511Z91NQTEBNPHE3HN6T.jpg",
+        "images/projects/01JC5B5122Z482KMFV9EQXJVQC.jpg",
+        "images/projects/01JC5B5125BTE610VMDJM309XP.jpg",
+        "images/projects/01JC5B5158GG4WE2B965S445N9.jpg",
+        "images/projects/01JC5B515BXHFBFHDP2Y6PZCKD.jpg",
+        "images/projects/01JC5B515ESN6R7JQNGGAGY7QR.jpg",
+        "images/projects/01JC5B515HKZ4M5NK7618NW3Y0.jpg"
+    ],
+    "video_url": null,
+    "location": "Dubai , UAE",
+    "date": "2024-09-01T00:00:00.000000Z",
+    "pax": "3500",
+    "is_featured": false,
+    "is_active": true,
+    "type": {
+        "id": 2,
+        "name": "Exhibitions",
+        "slug": "exhibitions"
+    },
+    "services": [
+        {
+            "id": 5,
+            "name": "AV",
+            "slug": "av",
+            "icon": null,
+            "image": null,
+            "pivot": {
+                "project_id": 1,
+                "service_id": 5
+            }
+        },
+        {
+            "id": 6,
+            "name": "Logistics",
+            "slug": "logistics",
+            "icon": null,
+            "image": null,
+            "pivot": {
+                "project_id": 1,
+                "service_id": 6
+            }
+        },
+        {
+            "id": 3,
+            "name": "Content",
+            "slug": "content",
+            "icon": null,
+            "image": null,
+            "pivot": {
+                "project_id": 1,
+                "service_id": 3
+            }
+        },
+        {
+            "id": 4,
+            "name": "Production",
+            "slug": "production",
+            "icon": null,
+            "image": null,
+            "pivot": {
+                "project_id": 1,
+                "service_id": 4
+            }
+        },
+        {
+            "id": 2,
+            "name": "Program",
+            "slug": "program",
+            "icon": null,
+            "image": null,
+            "pivot": {
+                "project_id": 1,
+                "service_id": 2
+            }
+        },
+        {
+            "id": 1,
+            "name": "Project Management",
+            "slug": "project-management",
+            "icon": null,
+            "image": null,
+            "pivot": {
+                "project_id": 1,
+                "service_id": 1
+            }
+        }
+    ],
+    "tags": [
+        {
+            "id": 1,
+            "name": "Festival",
+            "slug": "festival",
+            "pivot": {
+                "project_id": 1,
+                "tag_id": 1
+            }
+        }
+    ],
+    "client": {
+        "id": 1,
+        "name": "Phyllis Zimmerman",
+        "email": "zakux@mailinator.com",
+        "phone": "+971 174-9727",
+        "address": "Ad dolores quisquam officia dolorem distinctio Quibusdam enim exercitationem proident qui omnis cillum et in ut magni sint lorem",
+        "city": "Abu Dahbi",
+        "country": "AE",
+        "logo": "images/clients/01JC5BA56ZATN4NQN0VMD63VCF.svg"
+    }
+}
