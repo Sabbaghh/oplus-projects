@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import Link from 'next/link';
 import Title from '@/components/text/Title';
+import Image from 'next/image';
 
 export default function StickyNav() {
   const [isOpen, setIsOpen] = useState(false);
@@ -33,7 +34,12 @@ export default function StickyNav() {
       <nav className="sticky top-0 z-40 bg-white pt-5">
         <div className="container mx-auto px-6 py-3 flex justify-between items-center">
           <Link href="/" className="text-xl font-bold">
-            Logo
+            <Image
+              src={'/images/logo.png'}
+              alt="white logo"
+              width={100}
+              height={100}
+            />
           </Link>
           <button onClick={toggleMenu} className="focus:outline-none">
             <Menu className="h-6 w-6" />
@@ -50,7 +56,12 @@ export default function StickyNav() {
       >
         <div className="container absolute top-6  text-white mx-auto px-6 py-3 flex justify-between items-center">
           <Link href="/" className="text-xl font-bold ">
-            Logo
+            <Image
+              src={'/images/logo-white.png'}
+              alt="white logo"
+              width={100}
+              height={100}
+            />
           </Link>
           <button
             onClick={toggleMenu}
