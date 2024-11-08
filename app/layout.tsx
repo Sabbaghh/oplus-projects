@@ -28,7 +28,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${sixCaps.variable} ${popins.variable}  antialiased`}>
-        <Navbar />
         {children}
       </body>
     </html>
