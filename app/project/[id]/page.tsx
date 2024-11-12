@@ -55,7 +55,7 @@ function Page() {
               className="text-white tracking-wide leading-none "
             />
           </div>
-          <div className="container m-auto grid text-center md:grid-cols-4 md:gap-0 gap-16 sm:mt-10 mt-28">
+          <div className="container m-auto grid text-center md:grid-cols-4 md:gap-0 gap-16 sm:mt-10 mt-28 mb-32">
             <div>
               <Title
                 size="medium"
