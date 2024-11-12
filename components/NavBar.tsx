@@ -32,7 +32,7 @@ export default function StickyNav({ inverse = false }: { inverse: boolean }) {
   return (
     <>
       <nav className={`absolute left-0 top-0 w-full z-50 bg-transparent `}>
-        <div className="sm:px-16 px-10 sm:pt-5 py-5 flex justify-between items-center">
+        <div className="sm:px-16 px-10  py-5 flex justify-between items-center">
           <Link href="/" className="text-xl font-bold">
             <Image
               className="w-20 sm:w-32"
@@ -57,9 +57,10 @@ export default function StickyNav({ inverse = false }: { inverse: boolean }) {
             : 'opacity-0 pointer-events-none'
         }`}
       >
-        <div className=" absolute top-6  text-white mx-auto px-16 py-10 flex justify-between items-center w-full">
+        <div className="absolute top-0  text-white mx-auto px-10 py-5 flex justify-between items-center w-full">
           <Link href="/" className="text-xl font-bold ">
             <Image
+              className="w-20 sm:w-32"
               src={'/images/logo-white.png'}
               alt="white logo"
               width={120}
