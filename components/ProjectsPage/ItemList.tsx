@@ -90,7 +90,7 @@ const ItemList: React.FC = () => {
 
   return (
     <>
-      <section className="container m-auto px-5 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 sm:gap-5 gap-16 mb-12  min-h-96">
+      <section className=" sm:px-20 px-5 grid 2xl:grid-cols-3 md:grid-cols-2 grid-cols-1 sm:gap-20 gap-16 mb-12  min-h-96">
         {loading && data.length === 0 ? (
           Array.from({ length: 6 }).map((_, index) => (
             <div key={index}>
@@ -104,7 +104,7 @@ const ItemList: React.FC = () => {
               key={`${id}-${index}-${Math.random()}`}
               className="cursor-pointer"
             >
-              <div className="w-full h-72 relative rounded-md overflow-hidden group">
+              <div className="w-full h-96 relative rounded-md overflow-hidden group">
                 <Image
                   className="object-cover transition-transform duration-300 transform sm:group-hover:scale-110"
                   alt={`${name} thumbnail`}
@@ -125,7 +125,7 @@ const ItemList: React.FC = () => {
                 </TextRegular>
                 <TextRegular
                   size="small"
-                  className="font-extrabold opacity-80 self-center w-1/4 text-center"
+                  className="font-extrabold opacity-80 self-center w-1/4 text-end "
                 >
                   {type.name}
                 </TextRegular>
@@ -138,7 +138,7 @@ const ItemList: React.FC = () => {
       </section>
       <section className="min-h-96">
         {loading && data.length > 0 && (
-          <div className="container m-auto px-5 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 sm:gap-5 gap-16 mb-12">
+          <div className=" px-20 grid xlg:grid-cols-3 md:grid-cols-2 grid-cols-1 sm:gap-16 gap-16 mb-12">
             {Array.from({ length: 6 }).map((_, index) => (
               <div key={index}>
                 <SkeletonCard />
