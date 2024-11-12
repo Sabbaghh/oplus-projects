@@ -1,10 +1,11 @@
 import React from 'react';
 import Title from '@/components/text/Title';
 import TextRegular from '@/components/text/TextRegular';
+import NavBar from '@/components/NavBar';
 
 function Hero() {
   return (
-    <section className="container m-auto flex flex-col h-[50vh] justify-center mb-40 px-12 mt-40">
+    <section className=" sm:min-h-[90vh] min-h-[50vh] p-10 sm:p-0 flex flex-col  justify-center mb-10">
       <Title
         text="Projects"
         withAnimation
