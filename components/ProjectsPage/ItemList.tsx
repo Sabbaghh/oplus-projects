@@ -1,76 +1,24 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import Image from 'next/image';
 import SkeletonCard from '@/components/ProjectsPage/SkeletonCard';
-import axios from 'axios';
 import { useSearchParams } from 'next/navigation';
 import TextRegular from '@/components/text/TextRegular';
 import moment from 'moment';
 import Link from 'next/link';
-
-interface ProjectType {
-  name: string;
-}
-
-interface Project {
-  id: number;
-  name: string;
-  image: string;
-  type: ProjectType;
-  date: string;
-}
-
-interface ApiResponse {
-  data: Project[];
-  next_page_url?: string | null;
-}
+import useProjects from '@/components/hooks/useProjectsApi';
 
 const ItemList: React.FC = () => {
   const searchParams = useSearchParams();
-  const [data, setData] = useState<Project[]>([]);
-  const [loading, setLoading] = useState<boolean>(true);
-  const [page, setPage] = useState<number>(1);
-  const [hasMore, setHasMore] = useState<boolean>(true);
   const projectType = searchParams.get('projectType');
   const searchValue = searchParams.get('search');
 
-  const fetchData = async (pageNum: number) => {
-    setLoading(true);
-    try {
-      let url: string;
-
-      if (projectType) {
-        // If projectType exists, call the type-specific endpoint
-        url = `${process.env.NEXT_PUBLIC_API_URI}/projects?type=${projectType}&page=${pageNum}`;
-      } else if (searchValue) {
-        // If searchValue exists, call the search endpoint
-        url = `${process.env.NEXT_PUBLIC_API_URI}/projects/search?q=${searchValue}&page=${pageNum}`;
-      } else {
-        // Default endpoint for all projects
-        url = `${process.env.NEXT_PUBLIC_API_URI}/projects?page=${pageNum}`;
-      }
-
-      const { data: fetchedData } = await axios.get(url);
-      setData((prevData) => [...prevData, ...fetchedData.data]);
-      setHasMore(!!fetchedData.next_page_url);
-    } catch (error) {
-      console.error('Error fetching data:', error);
-    } finally {
-      setLoading(false);
-    }
-  };
-
-  useEffect(() => {
-    setData([]); // Reset data when parameters change
-    setPage(1); // Reset to first page
-    setHasMore(true); // Reset "has more" state
-    fetchData(1); // Fetch initial data
-  }, [projectType, searchValue]);
-
-  useEffect(() => {
-    if (page > 1) fetchData(page);
-  }, [page]);
+  // Use the custom hook to fetch projects
+  const { data, loading, hasMore, setPage } = useProjects(
+    projectType,
+    searchValue,
+  );
 
   const handleScroll = () => {
     if (
@@ -90,7 +38,7 @@ const ItemList: React.FC = () => {
 
   return (
     <>
-      <section className=" sm:px-20 px-5 grid 2xl:grid-cols-3 md:grid-cols-2 grid-cols-1 sm:gap-20 gap-16 mb-12  min-h-96">
+      <section className="sm:px-20 px-5 grid 2xl:grid-cols-3 md:grid-cols-2 grid-cols-1 sm:gap-20 gap-16 mb-12 min-h-96">
         {loading && data.length === 0 ? (
           Array.from({ length: 6 }).map((_, index) => (
             <div key={index}>

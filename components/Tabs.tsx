@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import TextRegular from '@/components/text/TextRegular';
 import { useSearchParams } from 'next/navigation';
-import useQueryParams from '@/components/ProjectsPage/useQueryParams';
+import useQueryParams from '@/components/hooks/useQueryParams';
 import {
   PROJECT_TYPE_ALL,
   PROJECT_TYPE_EVENTS,
