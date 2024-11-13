@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { Search } from 'lucide-react';
 import { Input } from '@/components/ui/input';
 import { useSearchParams } from 'next/navigation';
-import useQueryParams from '@/components/ProjectsPage/useQueryParams';
+import useQueryParams from '@/components/hooks/useQueryParams';
 function SearchBar() {
   const { replaceQueryParams } = useQueryParams();
   const searchParams = useSearchParams();

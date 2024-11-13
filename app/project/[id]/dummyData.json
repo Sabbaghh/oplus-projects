@@ -1,35 +1,54 @@
 {
-    "id": 1,
-    "name": "Al Marmoom Film In The Desert",
-    "slug": "road-show",
-    "client_id": 1,
-    "type_id": 2,
+    "id": 9,
+    "name": "Energy Storage Forum",
+    "slug": "energy-storage-forum",
+    "client_id": 6,
+    "type_id": 1,
     "region": "local",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "image": "images/projects/covers/01JBVGBYPXM8S13BRBK0M8VH4M.jpg",
+    "description": null,
+    "image": "images/projects/covers/01JCJ1TZ758K6KQRWS8TY5DN3X.JPG",
     "gallery": [
-        "images/projects/01JC5B510ME8Y122D3D351WR65.jpg",
-        "images/projects/01JC5B511W1KTYYPKFJ0TNGG41.jpg",
-        "images/projects/01JC5B511Z91NQTEBNPHE3HN6T.jpg",
-        "images/projects/01JC5B5122Z482KMFV9EQXJVQC.jpg",
-        "images/projects/01JC5B5125BTE610VMDJM309XP.jpg",
-        "images/projects/01JC5B5158GG4WE2B965S445N9.jpg",
-        "images/projects/01JC5B515BXHFBFHDP2Y6PZCKD.jpg",
-        "images/projects/01JC5B515ESN6R7JQNGGAGY7QR.jpg",
-        "images/projects/01JC5B515HKZ4M5NK7618NW3Y0.jpg"
+        "images/projects/01JCJ1TZHQWB285E07YJ4DHWC9.JPG",
+        "images/projects/01JCJ1TZP08657CYBVVPHVE0DY.JPG",
+        "images/projects/01JCJ1TZYRD6ZYEKVP08NVSVT4.JPG",
+        "images/projects/01JCJ1V00R1H4TMVYNMJ3CAG9B.JPG",
+        "images/projects/01JCJ1V0ARQFP09AF82HM1QGY4.JPG",
+        "images/projects/01JCJ1V0EVT5W68DYK5R345SMM.JPG",
+        "images/projects/01JCJ1V0QPZKA7H8GY425WCTCN.JPG",
+        "images/projects/01JCJ1V0WX1VNB3KMKYE92Y34X.JPG",
+        "images/projects/01JCJ1V15MQVCTT7K42C9AJ2MK.JPG",
+        "images/projects/01JCJ1V1A09BPHDZ926MSXT2BQ.JPG",
+        "images/projects/01JCJ1V1G2VA9ZPXGN6GKB5GVW.JPG",
+        "images/projects/01JCJ1V1QXMNDDQFBFJRSKASXR.JPG",
+        "images/projects/01JCJ1V1WAEXRR5XMA6M4W52M5.JPG",
+        "images/projects/01JCJ1V237MMSCRMR2A5T9055Q.JPG",
+        "images/projects/01JCJ1V2DG3PGFPHGFTR134BTX.JPG",
+        "images/projects/01JCJ1V2M3RRQKJSGGA710BXJM.JPG",
+        "images/projects/01JCJ1V38YW5GRJ33A63XGDPN8.JPG"
     ],
     "video_url": null,
-    "location": "Dubai , UAE",
-    "date": "2024-09-01T00:00:00.000000Z",
-    "pax": "3500",
-    "is_featured": false,
+    "location": "Sofitel Hotel, JBR, Dubai, UAE",
+    "date": "2024-01-13T00:00:00.000000Z",
+    "pax": "250",
+    "is_featured": true,
     "is_active": true,
     "type": {
-        "id": 2,
-        "name": "Exhibitions",
-        "slug": "exhibitions"
+        "id": 1,
+        "name": "Events",
+        "slug": "events"
     },
     "services": [
+        {
+            "id": 3,
+            "name": "Content",
+            "slug": "content",
+            "icon": null,
+            "image": null,
+            "pivot": {
+                "project_id": 9,
+                "service_id": 3
+            }
+        },
         {
             "id": 5,
             "name": "AV",
@@ -37,7 +56,7 @@
             "icon": null,
             "image": null,
             "pivot": {
-                "project_id": 1,
+                "project_id": 9,
                 "service_id": 5
             }
         },
@@ -48,19 +67,8 @@
             "icon": null,
             "image": null,
             "pivot": {
-                "project_id": 1,
+                "project_id": 9,
                 "service_id": 6
-            }
-        },
-        {
-            "id": 3,
-            "name": "Content",
-            "slug": "content",
-            "icon": null,
-            "image": null,
-            "pivot": {
-                "project_id": 1,
-                "service_id": 3
             }
         },
         {
@@ -70,7 +78,7 @@
             "icon": null,
             "image": null,
             "pivot": {
-                "project_id": 1,
+                "project_id": 9,
                 "service_id": 4
             }
         },
@@ -81,7 +89,7 @@
             "icon": null,
             "image": null,
             "pivot": {
-                "project_id": 1,
+                "project_id": 9,
                 "service_id": 2
             }
         },
@@ -92,30 +100,20 @@
             "icon": null,
             "image": null,
             "pivot": {
-                "project_id": 1,
+                "project_id": 9,
                 "service_id": 1
             }
         }
     ],
-    "tags": [
-        {
-            "id": 1,
-            "name": "Festival",
-            "slug": "festival",
-            "pivot": {
-                "project_id": 1,
-                "tag_id": 1
-            }
-        }
-    ],
+    "tags": [],
     "client": {
-        "id": 1,
-        "name": "Phyllis Zimmerman",
-        "email": "zakux@mailinator.com",
-        "phone": "+971 174-9727",
-        "address": "Ad dolores quisquam officia dolorem distinctio Quibusdam enim exercitationem proident qui omnis cillum et in ut magni sint lorem",
-        "city": "Abu Dahbi",
-        "country": "AE",
-        "logo": "images/clients/01JC5BA56ZATN4NQN0VMD63VCF.svg"
+        "id": 6,
+        "name": "GCCIA",
+        "email": "GCCIA@oplus.ae",
+        "phone": null,
+        "address": null,
+        "city": null,
+        "country": null,
+        "logo": null
     }
 }
