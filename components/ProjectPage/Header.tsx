@@ -39,6 +39,7 @@ function Header(props: props) {
         className={`w-full absolute h-full bg-cover bg-center`}
         style={{
           backgroundImage: `url(${process.env.NEXT_PUBLIC_IMAGE_URI}/${image})`,
+          backgroundAttachment: 'fixed',
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-b from-black via-black/40 to-black -bottom-1" />
