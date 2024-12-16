@@ -4,6 +4,10 @@ import { Menu, X } from 'lucide-react';
 import Link from 'next/link';
 import Title from '@/components/text/Title';
 import Image from 'next/image';
+import RegularText from '@/components/text/TextRegular';
+import { FaFacebookF } from 'react-icons/fa6';
+import { TiSocialLinkedin } from 'react-icons/ti';
+import { FaInstagram, FaYoutube } from 'react-icons/fa';
 
 export default function StickyNav({ inverse = false }: { inverse: boolean }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,6 +24,23 @@ export default function StickyNav({ inverse = false }: { inverse: boolean }) {
     {
       href: `${process.env.NEXT_PUBLIC_MAIN_WEBSITE_URI}/contact`,
       label: 'Contact',
+    },
+  ];
+
+  const social = [
+    { link: 'https://www.facebook.com/OPlusEvents/', icon: <FaFacebookF /> },
+    { link: 'https://www.instagram.com/oplusevents/', icon: <FaInstagram /> },
+    {
+      link: 'https://www.linkedin.com/company/oplusevents',
+      icon: <TiSocialLinkedin />,
+    },
+    {
+      link: 'https://www.youtube.com/channel/UCbVXCKRv5sbtV5lcNSgB2IQ/videos',
+      icon: <FaYoutube />,
+    },
+    {
+      link: 'https://oplus2024.netlify.app/portfolio.pdf',
+      icon: <RegularText>PORTFOLIO</RegularText>,
     },
   ];
 
@@ -108,6 +129,15 @@ export default function StickyNav({ inverse = false }: { inverse: boolean }) {
             </li>
           ))}
         </ul>
+        <div className=" px-10 absolute bottom-16 md:left-16 z-10 grid  lg:w-[30vw] md:w-[50vw] sm:w-full w-full ">
+          <div className="text-white text-2xl grid grid-cols-5 ">
+            {social.map((el, index) => (
+              <Link target="_blank" key={index} href={el.link}>
+                {el.icon}
+              </Link>
+            ))}
+          </div>
+        </div>
       </div>
     </>
   );
