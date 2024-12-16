@@ -53,26 +53,36 @@ function Header(props: props) {
             className="text-white tracking-wide leading-none "
           />
         </div>
-        <div className="container m-auto grid text-center md:grid-cols-4 md:gap-0 gap-16 sm:mt-10 mt-28 mb-32">
-          {stats.map(({ title, data }, index) => (
-            <div key={index}>
-              <Title
-                size="medium"
-                withAnimation={true}
-                className="text-white tracking-wider"
-                text={title}
-              />
-              <TextRegular className="text-white mt-5 text-xl">
-                {data}
-              </TextRegular>
-            </div>
-          ))}
+        <div
+          className={`container m-auto grid text-center ${
+            pax ? 'md:grid-cols-4' : 'md:grid-cols-3'
+          } md:gap-0 gap-16 sm:mt-10 mt-28 mb-32`}
+        >
+          {stats.map(({ title, data }, index) => {
+            return (
+              <React.Fragment key={index}>
+                {data ? (
+                  <div>
+                    <Title
+                      size="medium"
+                      withAnimation={true}
+                      className="text-white tracking-wider"
+                      text={title}
+                    />
+                    <TextRegular className="text-white mt-5 text-xl">
+                      {data}
+                    </TextRegular>
+                  </div>
+                ) : null}
+              </React.Fragment>
+            );
+          })}
         </div>
       </section>
 
       {/* Services Marquee */}
       <div className="absolute bottom-10 left-0 w-full">
-        <Marquee>
+        <Marquee className="overflow-hidden">
           {services.map((service, index) => (
             <div key={index}>
               <TextRegular className="text-white inline-block">

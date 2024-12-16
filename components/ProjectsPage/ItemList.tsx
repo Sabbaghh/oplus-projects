@@ -38,7 +38,7 @@ const ItemList: React.FC = () => {
 
   return (
     <>
-      <section className="sm:px-20 px-5 grid 2xl:grid-cols-3 md:grid-cols-2 grid-cols-1 sm:gap-20 gap-16 mb-12 min-h-96">
+      <section className="sm:px-20 px-5 grid 2xl:grid-cols-3 md:grid-cols-2 grid-cols-1 sm:gap-10 gap-16 mb-12 min-h-96">
         {loading && data.length === 0 ? (
           Array.from({ length: 6 }).map((_, index) => (
             <div key={index}>
@@ -52,7 +52,7 @@ const ItemList: React.FC = () => {
               key={`${id}-${index}-${Math.random()}`}
               className="cursor-pointer"
             >
-              <div className="w-full h-96 relative rounded-md overflow-hidden group">
+              <div className="w-full aspect-video relative rounded-md overflow-hidden group">
                 <Image
                   className="object-cover transition-transform duration-300 transform sm:group-hover:scale-110"
                   alt={`${name} thumbnail`}
@@ -61,8 +61,8 @@ const ItemList: React.FC = () => {
                   fill
                   sizes="100vw"
                 />
-                <div className="px-2 py-1 top-3 left-3 rounded-md absolute bg-white/20">
-                  <TextRegular size="x-small" className="text-white">
+                <div className="px-2 py-1 top-3 left-3 rounded-md absolute bg-black/50">
+                  <TextRegular size="small" className="text-white">
                     {moment(date).format('MMM, YYYY').toUpperCase()}
                   </TextRegular>
                 </div>
@@ -86,7 +86,7 @@ const ItemList: React.FC = () => {
       </section>
       <section className="min-h-96">
         {loading && data.length > 0 && (
-          <div className=" px-20 grid xlg:grid-cols-3 md:grid-cols-2 grid-cols-1 sm:gap-16 gap-16 mb-12">
+          <div className=" px-20 grid xlg:grid-cols-3 md:grid-cols-3 grid-cols-1 sm:gap-16 gap-16 mb-12">
             {Array.from({ length: 6 }).map((_, index) => (
               <div key={index}>
                 <SkeletonCard />
@@ -94,7 +94,6 @@ const ItemList: React.FC = () => {
             ))}
           </div>
         )}
-
         {!hasMore && !loading && data.length > 0 && (
           <p className="text-center">No more projects to load.</p>
         )}
