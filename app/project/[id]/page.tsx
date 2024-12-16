@@ -55,7 +55,7 @@ function Page() {
             services={services.map((service: { name: string }) => service.name)} // Map over services to display them
             clientName={client.name} // Use optional chaining
             location={location}
-            pax={pax.toString()}
+            pax={pax ? pax.toString() : null}
             date={moment(date).format('MMM yy')} // Format date
           />
           <Gallery gallery={gallery} handleImageClick={handleImageClick} />
