@@ -12,7 +12,7 @@ function Gallery(props: props) {
       {gallery.map((img, index) => (
         <div
           key={index}
-          className="relative w-full h-[50rem] rounded-lg cursor-pointer"
+          className="relative w-full  h-[25rem] rounded-lg cursor-pointer"
           onClick={() => handleImageClick(index)}
         >
           <Image
