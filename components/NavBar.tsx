@@ -11,10 +11,16 @@ export default function StickyNav({ inverse = false }: { inverse: boolean }) {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   const menuItems = [
-    { href: '#', label: 'Home' },
-    { href: '#', label: 'About' },
-    { href: '#', label: 'Services' },
-    { href: '#', label: 'Contact' },
+    { href: `${process.env.NEXT_PUBLIC_MAIN_WEBSITE_URI}`, label: 'Home' },
+    { href: `#`, label: 'Projects' },
+    {
+      href: `${process.env.NEXT_PUBLIC_MAIN_WEBSITE_URI}/about`,
+      label: 'About',
+    },
+    {
+      href: `${process.env.NEXT_PUBLIC_MAIN_WEBSITE_URI}/contact`,
+      label: 'Contact',
+    },
   ];
 
   useEffect(() => {
