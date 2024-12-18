@@ -25,7 +25,7 @@ function Title(props: Props) {
       case 'large':
         return '2xl:text-9xl md:text-8xl sm:text-7xl text-7xl leading-[0.5em]';
       case 'x-large':
-        return '2xl:text-[30rem] md:text-[15rem] sm:text-[15rem] text-[10em]';
+        return '2xl:text-[20rem] md:text-[15rem] sm:text-[15rem] text-[10em]';
       default:
         return 'text-6xl';
     }
