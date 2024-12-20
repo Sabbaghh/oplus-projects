@@ -23,7 +23,7 @@ function Title(props: Props) {
       case 'medium':
         return '2xl:text-7xl  sm:text-5xl text-5xl  leading-[0.5em]';
       case 'large':
-        return '2xl:text-9xl md:text-8xl sm:text-7xl text-7xl leading-[0.5em]';
+        return '2xl:text-9xl md:text-8xl sm:text-7xl text-5xl leading-[0.5em]';
       case 'x-large':
         return '2xl:text-[20rem] md:text-[15rem] sm:text-[15rem] text-[10em]';
       default:
@@ -51,7 +51,7 @@ function Title(props: Props) {
           </span>
 
           {text.split(' ').length > wordIndex + 1 ? (
-            <div className="mr-5 inline bg-red"></div>
+            <div className="mr-2 ml-2 inline bg-red"></div>
           ) : null}
         </React.Fragment>
       ))}
