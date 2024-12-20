@@ -60,7 +60,10 @@ export default function StickyNav({ inverse = false }: { inverse: boolean }) {
     <>
       <nav className={`absolute left-0 top-0 w-full z-50 bg-transparent `}>
         <div className="sm:px-16 px-10  py-5 flex justify-between items-center">
-          <Link href="/" className="text-xl font-bold">
+          <Link
+            href="https://oplus2024.netlify.app/"
+            className="text-xl font-bold"
+          >
             <Image
               className="w-20 sm:w-32"
               src={inverse ? '/images/logo-white.png' : '/images/logo.png'}
@@ -85,7 +88,10 @@ export default function StickyNav({ inverse = false }: { inverse: boolean }) {
         }`}
       >
         <div className="absolute top-0  text-white mx-auto px-10 py-5 flex justify-between items-center w-full">
-          <Link href="/" className="text-xl font-bold ">
+          <Link
+            href="https://oplus2024.netlify.app/"
+            className="text-xl font-bold "
+          >
             <Image
               className="w-20 sm:w-32"
               src={'/images/logo-white.png'}
