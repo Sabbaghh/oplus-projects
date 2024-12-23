@@ -86,7 +86,7 @@ const ItemList: React.FC = () => {
       </section>
       <section className="min-h-96">
         {loading && data.length > 0 && (
-          <div className=" px-20 grid xlg:grid-cols-3 md:grid-cols-3 grid-cols-1 sm:gap-16 gap-16 mb-12">
+          <div className="sm:px-20 px-5 grid 2xl:grid-cols-3 md:grid-cols-2 grid-cols-1 sm:gap-10 gap-16 mb-12 min-h-96">
             {Array.from({ length: 6 }).map((_, index) => (
               <div key={index}>
                 <SkeletonCard />
