@@ -77,7 +77,10 @@ export default function StickyNav({ inverse = false }: { inverse: boolean }) {
             />
           </Link>
           <div className="flex justify-center items-center">
-            <Link href={`${process.env.NEXT_PUBLIC_MAIN_WEBSITE_URI}/contact`}>
+            <Link
+              className={inverse ? 'text-white' : 'text-black'}
+              href={`${process.env.NEXT_PUBLIC_MAIN_WEBSITE_URI}/contact`}
+            >
               Contact us
             </Link>
             <button onClick={toggleMenu} className="focus:outline-none ml-10">
