@@ -82,7 +82,12 @@ function Header(props: props) {
 
       {/* Services Marquee */}
       <div className="absolute bottom-10 left-0 w-full">
-        <Marquee className="overflow-hidden">
+        <Marquee
+          speed={100}
+          pauseOnHover
+          pauseOnClick
+          className="overflow-hidden"
+        >
           {services.map((service, index) => (
             <div key={index}>
               <TextRegular className="text-white inline-block">
