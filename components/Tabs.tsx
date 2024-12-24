@@ -7,6 +7,8 @@ import {
   PROJECT_TYPE_ALL,
   PROJECT_TYPE_EVENTS,
   PROJECT_TYPE_EXHIBITION,
+  PROJECT_TYPE_RETAIL,
+  PROJECT_TYPE_CONCERTS,
 } from '@/constants/ProjectTypes';
 function Tabs() {
   const { replaceQueryParams } = useQueryParams();
@@ -23,6 +25,14 @@ function Tabs() {
       {
         tabName: 'Exhibition',
         queryValue: PROJECT_TYPE_EXHIBITION,
+      },
+      {
+        tabName: 'Retail & Fitout',
+        queryValue: PROJECT_TYPE_RETAIL,
+      },
+      {
+        tabName: 'Concerts',
+        queryValue: PROJECT_TYPE_CONCERTS,
       },
     ],
     activeTab: PROJECT_TYPE_ALL,
@@ -45,7 +55,7 @@ function Tabs() {
           <div
             onClick={() => trigggerTab(queryValue)}
             key={tabName}
-            className={` justify-center rounded-3xl flex px-5 hover:border-opacity-1 hover:border-black transition-all ease-out duration-300 hover:duration-300 border-2 cursor-pointer py-1  hover:text-black ${
+            className={`justify-center rounded-3xl flex px-5 hover:border-opacity-1 hover:border-black transition-all ease-out duration-300 hover:duration-300 border-2 cursor-pointer py-1 hover:text-black ${
               isActive
                 ? ' border-black text-black'
                 : 'text-muted-foreground border-opacity-0'
