@@ -18,6 +18,10 @@ export default function StickyNav({ inverse = false }: { inverse: boolean }) {
     { href: `${process.env.NEXT_PUBLIC_MAIN_WEBSITE_URI}`, label: 'Home' },
     { href: `#`, label: 'Projects' },
     {
+      href: `${process.env.NEXT_PUBLIC_MAIN_WEBSITE_URI}/#services`,
+      label: 'Services',
+    },
+    {
       href: `${process.env.NEXT_PUBLIC_MAIN_WEBSITE_URI}/about`,
       label: 'About',
     },
@@ -61,7 +65,7 @@ export default function StickyNav({ inverse = false }: { inverse: boolean }) {
       <nav className={`absolute left-0 top-0 w-full z-50 bg-transparent `}>
         <div className="sm:px-16 px-10  py-5 flex justify-between items-center">
           <Link
-            href="https://oplus2024.netlify.app/"
+            href={`${process.env.NEXT_PUBLIC_MAIN_WEBSITE_URI}`}
             className="text-xl font-bold"
           >
             <Image
@@ -72,11 +76,16 @@ export default function StickyNav({ inverse = false }: { inverse: boolean }) {
               height={130}
             />
           </Link>
-          <button onClick={toggleMenu} className="focus:outline-none">
-            <Menu
-              className={`h-6 w-6 ${!inverse ? 'text-black' : 'text-white'} `}
-            />
-          </button>
+          <div className="flex justify-center items-center">
+            <Link href={`${process.env.NEXT_PUBLIC_MAIN_WEBSITE_URI}/contact`}>
+              Contact us
+            </Link>
+            <button onClick={toggleMenu} className="focus:outline-none ml-10">
+              <Menu
+                className={`h-6 w-6 ${!inverse ? 'text-black' : 'text-white'} `}
+              />
+            </button>
+          </div>
         </div>
       </nav>
 
