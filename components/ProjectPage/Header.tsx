@@ -46,12 +46,12 @@ function Header(props: props) {
       </div>
       <section className="w-full z-10 p-10 sm:p-0 mt-20 sm:mt-40">
         <div className="w-full text-center mt-10 sm:mt-0">
-          <Title
-            withAnimation={true}
-            text={projectName}
+          <TextRegular
             size="large"
-            className="text-white tracking-wide leading-none "
-          />
+            className="text-white mt-5 font-normal capitalize"
+          >
+            {projectName}
+          </TextRegular>
         </div>
         <div
           className={`container m-auto grid text-center ${
@@ -63,13 +63,13 @@ function Header(props: props) {
               <React.Fragment key={index}>
                 {data ? (
                   <div>
-                    <Title
-                      size="medium"
-                      withAnimation={true}
-                      className="text-white tracking-wider"
-                      text={title}
-                    />
-                    <TextRegular className="text-white mt-5 text-xl">
+                    <TextRegular
+                      size="medium-large"
+                      className="text-white mt-5 font-normal capitalize"
+                    >
+                      {title}
+                    </TextRegular>
+                    <TextRegular className="text-white text-xl font-light">
                       {data}
                     </TextRegular>
                   </div>

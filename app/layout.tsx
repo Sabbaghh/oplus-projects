@@ -1,17 +1,16 @@
 import type { Metadata } from 'next';
-import localFont from 'next/font/local';
 import './globals.css';
+import { Six_Caps, Poppins } from 'next/font/google';
 
-const sixCaps = localFont({
-  src: './fonts/SixCaps.ttf',
+const sixCaps = Six_Caps({
+  subsets: ['latin'],
+  weight: ['400'],
   variable: '--six-caps',
-  weight: '100 900',
 });
-
-const popins = localFont({
-  src: './fonts/Poppins.ttf',
+const popins = Poppins({
+  subsets: ['latin'],
   variable: '--poppins',
-  weight: '100 900',
+  weight: ['100', '200', '400'],
 });
 
 export const metadata: Metadata = {
@@ -25,10 +24,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${sixCaps.variable} ${popins.variable}  antialiased`}>
-        {children}
-      </body>
+    <html
+      className={`${sixCaps.variable} ${popins.variable}  antialiased`}
+      lang="en"
+    >
+      <body>{children}</body>
     </html>
   );
 }
