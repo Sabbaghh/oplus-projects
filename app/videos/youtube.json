@@ -1,0 +1,1059 @@
+{
+    "kind": "youtube#searchListResponse",
+    "etag": "SQdBvFwo9LbjoJPg9Tmilcz8FYQ",
+    "regionCode": "AE",
+    "pageInfo": {
+        "totalResults": 31,
+        "resultsPerPage": 31
+    },
+    "items": [
+        {
+            "kind": "youtube#searchResult",
+            "etag": "Flcxni-nXiCOEziSevNqbYEPyKc",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "w7_W1ytNWUk"
+            },
+            "snippet": {
+                "publishedAt": "2024-11-25T13:47:40Z",
+                "channelId": "UCbVXCKRv5sbtV5lcNSgB2IQ",
+                "title": "ISUZU S&amp;E SERIES LAUNCH 2024",
+                "description": "highlights from the ISUZU S&E SERIES LAUNCH 2024, organized by OPLUS EVENTS LLC in Riyadh! This exciting event ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/w7_W1ytNWUk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/w7_W1ytNWUk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/w7_W1ytNWUk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Oplus Events",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-11-25T13:47:40Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "rKb9n8H04YcHfldAPFqLvO6UMgI",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "RgIvIbBKR4s"
+            },
+            "snippet": {
+                "publishedAt": "2024-02-06T10:21:36Z",
+                "channelId": "UCbVXCKRv5sbtV5lcNSgB2IQ",
+                "title": "Al Marmoom Film in The Desert 2024 Highlights",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/RgIvIbBKR4s/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/RgIvIbBKR4s/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/RgIvIbBKR4s/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Oplus Events",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-02-06T10:21:36Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "zwU33h43quisX9hj5TaPN6n7Nog",
+            "id": {
+                "kind": "youtube#playlist",
+                "playlistId": "PL_bwj5vX8rj3smVbiJzeONHv7N5zZ33z-"
+            },
+            "snippet": {
+                "publishedAt": "2023-12-20T12:05:36Z",
+                "channelId": "UCbVXCKRv5sbtV5lcNSgB2IQ",
+                "title": "All Events",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ts00LqZY_OY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ts00LqZY_OY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ts00LqZY_OY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Oplus Events",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-12-20T12:05:36Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "941azep3cVyOtvJDuMnVvWu2dEE",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "ts00LqZY_OY"
+            },
+            "snippet": {
+                "publishedAt": "2023-12-14T06:54:01Z",
+                "channelId": "UCbVXCKRv5sbtV5lcNSgB2IQ",
+                "title": "Abu Dhabi Quality and Conformity Council - UAE National Day",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ts00LqZY_OY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ts00LqZY_OY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ts00LqZY_OY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Oplus Events",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-12-14T06:54:01Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "fBWETs3nO8lbdC0TDcrgcyKgnWA",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "gvPbiXFGCjQ"
+            },
+            "snippet": {
+                "publishedAt": "2023-12-14T06:51:14Z",
+                "channelId": "UCbVXCKRv5sbtV5lcNSgB2IQ",
+                "title": "Abu Dhabi Quality and Conformity Council -  Jewellery and Watch Show",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/gvPbiXFGCjQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/gvPbiXFGCjQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/gvPbiXFGCjQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Oplus Events",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-12-14T06:51:14Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "8T4UN8b2CtvOUq9Mv1Fhz4mfFmM",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "OG6JkQWRCm4"
+            },
+            "snippet": {
+                "publishedAt": "2023-12-11T06:45:37Z",
+                "channelId": "UCbVXCKRv5sbtV5lcNSgB2IQ",
+                "title": "The Prince Talal International Prize Award Ceremony - AGFUND",
+                "description": "Prince Talal International Prize for Human Development, carries a financial reward of US$ 1000000, awarded annually by the ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/OG6JkQWRCm4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/OG6JkQWRCm4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/OG6JkQWRCm4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Oplus Events",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-12-11T06:45:37Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "awN1BisEuIqrwyY9mmphFtFjx3g",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "LDB2S9tSjUQ"
+            },
+            "snippet": {
+                "publishedAt": "2023-07-27T09:44:54Z",
+                "channelId": "UCbVXCKRv5sbtV5lcNSgB2IQ",
+                "title": "Al Marmoom Film in The Desert  Highlights",
+                "description": "Al Marmoom: Film in the Desert - a venture by Dubai Culture and Arts Authority - held the film festival in the Al Qudra Desert in ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/LDB2S9tSjUQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/LDB2S9tSjUQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/LDB2S9tSjUQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Oplus Events",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-07-27T09:44:54Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "aVmVSXByqkeHo-rdxnN3d1Z_hpw",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "6BMl0QLTw3M"
+            },
+            "snippet": {
+                "publishedAt": "2023-06-23T12:43:29Z",
+                "channelId": "UCbVXCKRv5sbtV5lcNSgB2IQ",
+                "title": "Energy Storage Forum | Highlights 1st &amp; 2nd Editions",
+                "description": "The Energy Storage Forum's inaugural and subsequent editions, which occurred in Dubai, UAE in 2022 and 2023 respectively, ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/6BMl0QLTw3M/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/6BMl0QLTw3M/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/6BMl0QLTw3M/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Oplus Events",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-06-23T12:43:29Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "euexmRc8_dNZFBmZbFyHt9KzAf4",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "0FMXzmjcgMA"
+            },
+            "snippet": {
+                "publishedAt": "2022-06-27T07:30:45Z",
+                "channelId": "UCbVXCKRv5sbtV5lcNSgB2IQ",
+                "title": "UAE Economic Forum 2019",
+                "description": "UAE Economic Forum 2019.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/0FMXzmjcgMA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/0FMXzmjcgMA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/0FMXzmjcgMA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Oplus Events",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-06-27T07:30:45Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "wNw-eiBh44z1qWan2qkB4HpM2Zc",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "gM8-dQQ_jDI"
+            },
+            "snippet": {
+                "publishedAt": "2022-06-27T07:23:54Z",
+                "channelId": "UCbVXCKRv5sbtV5lcNSgB2IQ",
+                "title": "Energy Storage Forum 2022",
+                "description": "Energy Storage Forum 2022.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/gM8-dQQ_jDI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/gM8-dQQ_jDI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/gM8-dQQ_jDI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Oplus Events",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-06-27T07:23:54Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "dERmudkqap2xbKtIrxR8RtnAZC4",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "pCVgMn-II4Q"
+            },
+            "snippet": {
+                "publishedAt": "2021-09-25T11:58:03Z",
+                "channelId": "UCbVXCKRv5sbtV5lcNSgB2IQ",
+                "title": "ADIHEX entry requirements.",
+                "description": "ADIHEX 2021.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/pCVgMn-II4Q/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/pCVgMn-II4Q/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/pCVgMn-II4Q/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Oplus Events",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-09-25T11:58:03Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "mupjvusLLC2a5Im8Mkxgv2GIe6I",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "_Welh6wvAvw"
+            },
+            "snippet": {
+                "publishedAt": "2020-03-17T12:27:22Z",
+                "channelId": "UCbVXCKRv5sbtV5lcNSgB2IQ",
+                "title": "Quran hologram",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/_Welh6wvAvw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/_Welh6wvAvw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/_Welh6wvAvw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Oplus Events",
+                "liveBroadcastContent": "none",
+                "publishTime": "2020-03-17T12:27:22Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "o6Tv_v97uzt_O-Zp6xCooSL7dZw",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "eZpJgQPW5M0"
+            },
+            "snippet": {
+                "publishedAt": "2019-12-15T09:54:46Z",
+                "channelId": "UCbVXCKRv5sbtV5lcNSgB2IQ",
+                "title": "Dubai Culture, UAE National Day 2019",
+                "description": "Dubai Culture, UAE National Day - Dubai - 2019 Design production and management.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/eZpJgQPW5M0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/eZpJgQPW5M0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/eZpJgQPW5M0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Oplus Events",
+                "liveBroadcastContent": "none",
+                "publishTime": "2019-12-15T09:54:46Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "yqcDn-YGRzdAPcIeQlUoYY5PJWM",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "w5DbjlVgUY0"
+            },
+            "snippet": {
+                "publishedAt": "2019-12-15T09:49:53Z",
+                "channelId": "UCbVXCKRv5sbtV5lcNSgB2IQ",
+                "title": "GCAA UAE National Day 2019",
+                "description": "General civil aviation authority, Abu Dhabi, UAE National Day , 2019 Design production and management.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/w5DbjlVgUY0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/w5DbjlVgUY0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/w5DbjlVgUY0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Oplus Events",
+                "liveBroadcastContent": "none",
+                "publishTime": "2019-12-15T09:49:53Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "BxwwbOYaR3G1y8dE__--Dm2Sj7Q",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "vdjf1dW2_cc"
+            },
+            "snippet": {
+                "publishedAt": "2019-12-15T09:43:51Z",
+                "channelId": "UCbVXCKRv5sbtV5lcNSgB2IQ",
+                "title": "GCAA Airshow 2019",
+                "description": "general civil aviation authority, Dubai Airshow , 2019 Design production and management.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/vdjf1dW2_cc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/vdjf1dW2_cc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/vdjf1dW2_cc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Oplus Events",
+                "liveBroadcastContent": "none",
+                "publishTime": "2019-12-15T09:43:51Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "5UQ-DC-3WWINxeJBoDFb1JPBcYU",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "BOae_4Y5gl8"
+            },
+            "snippet": {
+                "publishedAt": "2019-10-23T06:16:21Z",
+                "channelId": "UCbVXCKRv5sbtV5lcNSgB2IQ",
+                "title": "Abu Dhabi Global Market &amp; HUB71 2019",
+                "description": "Abu Dhabi Global Market & HUB71 @GITEX Future Stars - World Trade Center Dubai 2019 Design - Production - Management.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/BOae_4Y5gl8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/BOae_4Y5gl8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/BOae_4Y5gl8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Oplus Events",
+                "liveBroadcastContent": "none",
+                "publishTime": "2019-10-23T06:16:21Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "9ydHVtAXez4JdDuUzst8rH7nttg",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "IqSCaSRDXdo"
+            },
+            "snippet": {
+                "publishedAt": "2019-06-30T09:54:21Z",
+                "channelId": "UCbVXCKRv5sbtV5lcNSgB2IQ",
+                "title": "Safra - Arabian Travel Market 2019",
+                "description": "Safra - Arabian Travel Market - Dubai World Trade Center 2019.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/IqSCaSRDXdo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/IqSCaSRDXdo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/IqSCaSRDXdo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Oplus Events",
+                "liveBroadcastContent": "none",
+                "publishTime": "2019-06-30T09:54:21Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "7OdQGdfsAVcM7Ohd8a3VfLnsM28",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Hibf0F0-mV4"
+            },
+            "snippet": {
+                "publishedAt": "2019-06-30T06:36:12Z",
+                "channelId": "UCbVXCKRv5sbtV5lcNSgB2IQ",
+                "title": "Desert Gate 2019 - Arabian Travel Market",
+                "description": "Desert Gate - Arabian Travel Market - Dubai World Trade Center 2019.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Hibf0F0-mV4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Hibf0F0-mV4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Hibf0F0-mV4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Oplus Events",
+                "liveBroadcastContent": "none",
+                "publishTime": "2019-06-30T06:36:12Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "5L33EjOvNkaVbON1EjWSkrLoIoY",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "bDDrMmv-faU"
+            },
+            "snippet": {
+                "publishedAt": "2019-06-30T05:32:25Z",
+                "channelId": "UCbVXCKRv5sbtV5lcNSgB2IQ",
+                "title": "Dubai South Seamless 2019",
+                "description": "Dubai south seamless - world tread center 2019.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/bDDrMmv-faU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/bDDrMmv-faU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/bDDrMmv-faU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Oplus Events",
+                "liveBroadcastContent": "none",
+                "publishTime": "2019-06-30T05:32:25Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "VOageOgPC2_K9LBaEV9kFGzy3p4",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "8iatfGto0nM"
+            },
+            "snippet": {
+                "publishedAt": "2019-06-20T09:34:53Z",
+                "channelId": "UCbVXCKRv5sbtV5lcNSgB2IQ",
+                "title": "MINISTRY OF ECONOMY -ANNUAL INVESTMENT  MEETING 2019",
+                "description": "United Arab Emirates - Annual Investment Meeting Design production and management.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/8iatfGto0nM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/8iatfGto0nM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/8iatfGto0nM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Oplus Events",
+                "liveBroadcastContent": "none",
+                "publishTime": "2019-06-20T09:34:53Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "kOHCqJ2-C_7xMMzt8DKbtpaN7mc",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "3Ur6mx39-Ns"
+            },
+            "snippet": {
+                "publishedAt": "2019-06-19T14:20:20Z",
+                "channelId": "UCbVXCKRv5sbtV5lcNSgB2IQ",
+                "title": "UMM AL QUWIAN  GOVERNMENT ANNUAL MEETINGS 2019",
+                "description": "United Arab Emirates Umm alquwian Government Annual Meeting 2019, First Meeting Design production and management.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/3Ur6mx39-Ns/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/3Ur6mx39-Ns/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/3Ur6mx39-Ns/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Oplus Events",
+                "liveBroadcastContent": "none",
+                "publishTime": "2019-06-19T14:20:20Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "hXjeEu8SbPEPRa1NJOEGj41QbGc",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "f0czG3M60xE"
+            },
+            "snippet": {
+                "publishedAt": "2019-06-19T13:12:41Z",
+                "channelId": "UCbVXCKRv5sbtV5lcNSgB2IQ",
+                "title": "Graduation Ceremony UAEU 2019",
+                "description": "United Arab Emirates University, 38th & 39th Cohorts, Graduation Ceremony of 2019. Design production and management.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/f0czG3M60xE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/f0czG3M60xE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/f0czG3M60xE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Oplus Events",
+                "liveBroadcastContent": "none",
+                "publishTime": "2019-06-19T13:12:41Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "fQzN62vds8bz5HoVgCHyLuI721I",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "ovbNE8t3MJA"
+            },
+            "snippet": {
+                "publishedAt": "2018-06-24T13:52:59Z",
+                "channelId": "UCbVXCKRv5sbtV5lcNSgB2IQ",
+                "title": "IFHC - Mother of Nations Festival 2018",
+                "description": "The International Fund for Houbara Conservation Stand in March 2018 at the wonderful Mother of Nations Festival which took ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ovbNE8t3MJA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ovbNE8t3MJA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ovbNE8t3MJA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Oplus Events",
+                "liveBroadcastContent": "none",
+                "publishTime": "2018-06-24T13:52:59Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "xZn5jIEaZ9QOY_nhP18K2lHDY8M",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Nu4w2bINFEk"
+            },
+            "snippet": {
+                "publishedAt": "2018-06-24T13:46:07Z",
+                "channelId": "UCbVXCKRv5sbtV5lcNSgB2IQ",
+                "title": "Dubai Future Foundation - 2018",
+                "description": "It was an honor to host the opening ceremony of the Dubai Future Foundation's 2nd Anniversary on the 13th of May 2018, where ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Nu4w2bINFEk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Nu4w2bINFEk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Nu4w2bINFEk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Oplus Events",
+                "liveBroadcastContent": "none",
+                "publishTime": "2018-06-24T13:46:07Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "IYkTL4KgNzToeKexdq2U5bsj3tU",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "7JblPs3r2zY"
+            },
+            "snippet": {
+                "publishedAt": "2018-06-24T11:38:01Z",
+                "channelId": "UCbVXCKRv5sbtV5lcNSgB2IQ",
+                "title": "Desert Gate - 2018",
+                "description": "the Desert Gate stand at 2018's amazing Arabian Travel Market Exhibition. It was a pleasure to be part of this event which took ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/7JblPs3r2zY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/7JblPs3r2zY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/7JblPs3r2zY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Oplus Events",
+                "liveBroadcastContent": "none",
+                "publishTime": "2018-06-24T11:38:01Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "XCXgalyrQ1KAevQC0MTIQ0FDH2s",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "kQfqS36_j_4"
+            },
+            "snippet": {
+                "publishedAt": "2018-06-24T11:33:56Z",
+                "channelId": "UCbVXCKRv5sbtV5lcNSgB2IQ",
+                "title": "SWFC - 2018",
+                "description": "The beautiful Sharjah Oasis Waterfront City stand at 2018's International Property Show which took place at Dubai's World Trade ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/kQfqS36_j_4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/kQfqS36_j_4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/kQfqS36_j_4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Oplus Events",
+                "liveBroadcastContent": "none",
+                "publishTime": "2018-06-24T11:33:56Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "GLduS2Exau5rnrZf8V0wlVgh1jg",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "UQzQ-EWRrbo"
+            },
+            "snippet": {
+                "publishedAt": "2018-06-24T11:30:08Z",
+                "channelId": "UCbVXCKRv5sbtV5lcNSgB2IQ",
+                "title": "MOE Stand - 2018",
+                "description": "The Ministry of Economy stand at this years (2018) Annual Investment meeting which took place at the Dubai's World Trade ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/UQzQ-EWRrbo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/UQzQ-EWRrbo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/UQzQ-EWRrbo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Oplus Events",
+                "liveBroadcastContent": "none",
+                "publishTime": "2018-06-24T11:30:08Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "APDNB6mTJCzV05psdbv8EbwOcx4",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "UCDjHZG2ceE"
+            },
+            "snippet": {
+                "publishedAt": "2018-06-24T11:26:10Z",
+                "channelId": "UCbVXCKRv5sbtV5lcNSgB2IQ",
+                "title": "IFHC &amp; MEFA Stand - 2017",
+                "description": "The International Fund for Houbara Conservation (IFHC) & Middle East Falconry Archive (MEFA) exhibition stands at the ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/UCDjHZG2ceE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/UCDjHZG2ceE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/UCDjHZG2ceE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Oplus Events",
+                "liveBroadcastContent": "none",
+                "publishTime": "2018-06-24T11:26:10Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "y6rF-tRmjWie4zgPKd1xIxRH_lI",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "4iV1nTWE8Ao"
+            },
+            "snippet": {
+                "publishedAt": "2018-06-24T11:20:31Z",
+                "channelId": "UCbVXCKRv5sbtV5lcNSgB2IQ",
+                "title": "EFC Stand - 2017",
+                "description": "The Emirates Falconer's Club, exhibition stand, at the International Falconry Festival which took place in December 2017. Design ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/4iV1nTWE8Ao/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/4iV1nTWE8Ao/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/4iV1nTWE8Ao/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Oplus Events",
+                "liveBroadcastContent": "none",
+                "publishTime": "2018-06-24T11:20:31Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "yWbcjOtCEqap-1JK4pUWPdCXQGU",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "L1bCjHeZdKM"
+            },
+            "snippet": {
+                "publishedAt": "2017-12-28T08:45:27Z",
+                "channelId": "UCbVXCKRv5sbtV5lcNSgB2IQ",
+                "title": "OPLUS   WONDERFUL 2017",
+                "description": "It has been a successful, unique and exquisite year. To our team and most importantly our clients, it was an absolute pleasure ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/L1bCjHeZdKM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/L1bCjHeZdKM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/L1bCjHeZdKM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Oplus Events",
+                "liveBroadcastContent": "none",
+                "publishTime": "2017-12-28T08:45:27Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "V8ufJxguKqOpKngeKmpLFuktwQs",
+            "id": {
+                "kind": "youtube#channel",
+                "channelId": "UCbVXCKRv5sbtV5lcNSgB2IQ"
+            },
+            "snippet": {
+                "publishedAt": "2017-12-17T11:57:26Z",
+                "channelId": "UCbVXCKRv5sbtV5lcNSgB2IQ",
+                "title": "Oplus Events",
+                "description": "Showcasing the best of Events and Communications in the Middle East. Experience with Oplus the difference that only an ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://yt3.ggpht.com/eO9OEMpTjaOysOliAChlPVw436_mpJAiEr3HWF2F25Sj61w_J8qT2YL5DcstKNuW0h3Hxibx=s88-c-k-c0xffffffff-no-rj-mo"
+                    },
+                    "medium": {
+                        "url": "https://yt3.ggpht.com/eO9OEMpTjaOysOliAChlPVw436_mpJAiEr3HWF2F25Sj61w_J8qT2YL5DcstKNuW0h3Hxibx=s240-c-k-c0xffffffff-no-rj-mo"
+                    },
+                    "high": {
+                        "url": "https://yt3.ggpht.com/eO9OEMpTjaOysOliAChlPVw436_mpJAiEr3HWF2F25Sj61w_J8qT2YL5DcstKNuW0h3Hxibx=s800-c-k-c0xffffffff-no-rj-mo"
+                    }
+                },
+                "channelTitle": "Oplus Events",
+                "liveBroadcastContent": "none",
+                "publishTime": "2017-12-17T11:57:26Z"
+            }
+        }
+    ]
+}
