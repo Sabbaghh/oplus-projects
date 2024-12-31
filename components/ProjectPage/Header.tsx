@@ -45,7 +45,7 @@ function Header(props: props) {
         <div className="absolute inset-0 bg-gradient-to-b from-black via-black/40 to-black -bottom-1" />
       </div>
       <section className="w-full z-10 p-10 sm:p-0 mt-20 sm:mt-40">
-        <div className="w-full text-center mt-10 sm:mt-0">
+        <div className="w-full text-center mt-10 sm:mt-0 max-w-[80vw] m-auto">
           <TextRegular
             size="large"
             className="text-white mt-5 font-normal capitalize"
