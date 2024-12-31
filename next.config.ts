@@ -9,6 +9,16 @@ const nextConfig: NextConfig = {
         hostname: 'web.oplus.dev',
         pathname: '**',
       },
+      {
+        protocol: 'https',
+        hostname: 'i.ytimg.com',
+        pathname: '**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'yt3.ggpht.com',
+        pathname: '**',
+      },
     ],
   },
 };
