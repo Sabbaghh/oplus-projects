@@ -14,7 +14,7 @@ function Videos() {
   return (
     <>
       <NavBar inverse={false} />
-      <Hero title="Projects   Videos" />
+      <Hero title="Videos" />
       <section className="sm:px-20 px-5 grid 2xl:grid-cols-3 md:grid-cols-2 grid-cols-1 sm:gap-10 gap-16 mb-12 min-h-96">
         {filteredItems.map((item, index) => (
           <Link
