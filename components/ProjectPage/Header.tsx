@@ -21,16 +21,16 @@ function Header(props: props) {
       data: clientName,
     },
     {
-      title: 'location',
-      data: location,
-    },
-    {
       title: 'pax',
       data: pax,
     },
     {
       title: 'date',
       data: date,
+    },
+    {
+      title: 'location',
+      data: location,
     },
   ];
   return (
