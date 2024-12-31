@@ -17,7 +17,7 @@ function Title({ children, size = 'medium', className }: Props) {
       case 'medium':
         return 'md:text-xl text-base';
       case 'large':
-        return 'text-6xl';
+        return 'md:text-6xl text-4xl';
       default:
         return 'text-6xl';
     }
