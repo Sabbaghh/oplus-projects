@@ -4,24 +4,30 @@ import { Search } from 'lucide-react';
 import { Input } from '@/components/ui/input';
 import { useSearchParams } from 'next/navigation';
 import useQueryParams from '@/components/hooks/useQueryParams';
+
 function SearchBar() {
   const { replaceQueryParams } = useQueryParams();
   const searchParams = useSearchParams();
   const [term, setTerm] = useState(searchParams.get('search') || '');
+  const [isTyping, setIsTyping] = useState(false); // Track user interaction
 
   useEffect(() => {
-    // Set a timer to trigger the search query after 1 second of no typing
+    if (!isTyping) return; // Skip initial render
+
+    // Set a timer to trigger the search query after 300ms of no typing
     const timeoutId = setTimeout(() => {
       replaceQueryParams('search', term);
     }, 300);
 
-    // Clear the timeout if the user types again before 1 second
+    // Clear the timeout if the user types again before the timer finishes
     return () => clearTimeout(timeoutId);
-  }, [term]);
+  }, [term, isTyping]);
 
   function handleSearch(term: string) {
+    setIsTyping(true); // Mark as user interaction
     setTerm(term);
   }
+
   return (
     <div className="relative w-full sm:w-[60%] md:col-span-6 sm:col-span-12">
       <Search className="absolute left-2 top-2.5 h-4 w-4 text-muted-foreground" />
