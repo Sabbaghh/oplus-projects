@@ -43,7 +43,7 @@ export default function StickyNav({ inverse = false }: { inverse: boolean }) {
       icon: <FaYoutube />,
     },
     {
-      link: 'https://oplus2024.netlify.app/portfolio.pdf',
+      link: 'https://oplus.ae/portfolio.pdf',
       icon: <RegularText>PORTFOLIO</RegularText>,
     },
   ];
@@ -100,10 +100,7 @@ export default function StickyNav({ inverse = false }: { inverse: boolean }) {
         }`}
       >
         <div className="absolute top-0  text-white mx-auto px-10 py-5 flex justify-between items-center w-full">
-          <Link
-            href="https://oplus2024.netlify.app/"
-            className="text-xl font-bold "
-          >
+          <Link href="https://oplus.ae" className="text-xl font-bold ">
             <Image
               className="w-20 sm:w-32"
               src={'/images/logo-white.png'}
