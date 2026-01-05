@@ -1,15 +1,355 @@
 {
     "kind": "youtube#searchListResponse",
-    "etag": "SQdBvFwo9LbjoJPg9Tmilcz8FYQ",
-    "regionCode": "AE",
+    "etag": "biGlklGNaXmT_QS_2_VTyi4MyoY",
+    "regionCode": "US",
     "pageInfo": {
-        "totalResults": 31,
-        "resultsPerPage": 31
+        "totalResults": 41,
+        "resultsPerPage": 41
     },
     "items": [
         {
             "kind": "youtube#searchResult",
-            "etag": "Flcxni-nXiCOEziSevNqbYEPyKc",
+            "etag": "OxuLGnkHIaff93YbbPjgdUqmUpQ",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "T7gqqlByq6s"
+            },
+            "snippet": {
+                "publishedAt": "2026-01-05T07:34:34Z",
+                "channelId": "UCbVXCKRv5sbtV5lcNSgB2IQ",
+                "title": "ANIME HUB - AL BAHYA PARK",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/T7gqqlByq6s/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/T7gqqlByq6s/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/T7gqqlByq6s/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Oplus Events",
+                "liveBroadcastContent": "none",
+                "publishTime": "2026-01-05T07:34:34Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "RHUycjAJcGSNluoi6rebj0-wHXA",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "PgydNVKXSfk"
+            },
+            "snippet": {
+                "publishedAt": "2026-01-05T07:31:00Z",
+                "channelId": "UCbVXCKRv5sbtV5lcNSgB2IQ",
+                "title": "KHDA - Plan with your children 2025",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/PgydNVKXSfk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/PgydNVKXSfk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/PgydNVKXSfk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Oplus Events",
+                "liveBroadcastContent": "none",
+                "publishTime": "2026-01-05T07:31:00Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "x-MTbiYTvgZyGk5o7bMesyDs6a8",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "MUWaVUz9oCA"
+            },
+            "snippet": {
+                "publishedAt": "2026-01-05T07:29:30Z",
+                "channelId": "UCbVXCKRv5sbtV5lcNSgB2IQ",
+                "title": "DESERT GATE CAMP - OPLUS EVENTS",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/MUWaVUz9oCA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/MUWaVUz9oCA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/MUWaVUz9oCA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Oplus Events",
+                "liveBroadcastContent": "none",
+                "publishTime": "2026-01-05T07:29:30Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "B8KedOx9RFRurbzN1drfl7XmXc8",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "f0NYyq9Neo8"
+            },
+            "snippet": {
+                "publishedAt": "2025-12-09T09:47:56Z",
+                "channelId": "UCbVXCKRv5sbtV5lcNSgB2IQ",
+                "title": "MBZUH - Al Ain Book Festival",
+                "description": "We are proud to have participated in the Al Ain Book Festival in with MBZUH, and to have designed and executed their dedicated ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/f0NYyq9Neo8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/f0NYyq9Neo8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/f0NYyq9Neo8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Oplus Events",
+                "liveBroadcastContent": "none",
+                "publishTime": "2025-12-09T09:47:56Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "eGC9bnwvvJTQefwwgBw_YjZ-VqI",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "j5axM3AJcGI"
+            },
+            "snippet": {
+                "publishedAt": "2025-12-09T09:45:03Z",
+                "channelId": "UCbVXCKRv5sbtV5lcNSgB2IQ",
+                "title": "EFC  - AAIHEX 2025",
+                "description": "We were pleased to execute the EFC booth at AAIHEX 2025 in Al Ain, delivering high-quality work for this remarkable event ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/j5axM3AJcGI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/j5axM3AJcGI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/j5axM3AJcGI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Oplus Events",
+                "liveBroadcastContent": "none",
+                "publishTime": "2025-12-09T09:45:03Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "diNE9Bv07EnnNkwVPj7xQ-di7Cw",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "44uvyDNMmww"
+            },
+            "snippet": {
+                "publishedAt": "2025-12-09T09:08:03Z",
+                "channelId": "UCbVXCKRv5sbtV5lcNSgB2IQ",
+                "title": "MBZUH - National Day 2025 - Ajman",
+                "description": "OPLUS Events is proud to have partnered with MBZUH to deliver an unforgettable celebration for the UAE National Day 2025 in ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/44uvyDNMmww/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/44uvyDNMmww/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/44uvyDNMmww/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Oplus Events",
+                "liveBroadcastContent": "none",
+                "publishTime": "2025-12-09T09:08:03Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "ldKPsvSykFVXu_-zlVhiWLR1-kA",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "zMxqLUhmgOQ"
+            },
+            "snippet": {
+                "publishedAt": "2025-12-09T08:56:06Z",
+                "channelId": "UCbVXCKRv5sbtV5lcNSgB2IQ",
+                "title": "MBZUH - National Day 2025 - Al Dhafra",
+                "description": "OPLUS Events is proud to have partnered with MBZUH to deliver an unforgettable celebration for the UAE National Day 2025 in ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/zMxqLUhmgOQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/zMxqLUhmgOQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/zMxqLUhmgOQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Oplus Events",
+                "liveBroadcastContent": "none",
+                "publishTime": "2025-12-09T08:56:06Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "QmLYbwRxJgZPUGK8reRQJDvs-hQ",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "80MyfygRdpY"
+            },
+            "snippet": {
+                "publishedAt": "2025-12-09T08:51:58Z",
+                "channelId": "UCbVXCKRv5sbtV5lcNSgB2IQ",
+                "title": "Al Barari - The Cape - Highlights",
+                "description": "A new project… and another remarkable success! One of the most beautiful events we delivered this year — The Cape Launch in ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/80MyfygRdpY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/80MyfygRdpY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/80MyfygRdpY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Oplus Events",
+                "liveBroadcastContent": "none",
+                "publishTime": "2025-12-09T08:51:58Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "nGhupAFV_4-vGu-L57mkhBPXx_w",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "zFS06yD1-HY"
+            },
+            "snippet": {
+                "publishedAt": "2025-12-03T12:23:52Z",
+                "channelId": "UCbVXCKRv5sbtV5lcNSgB2IQ",
+                "title": "THE CAPE LAUNCH – AL BARARI",
+                "description": "THE CAPE LAUNCH – AL BARARI | OFFICIAL PROPERTY REVEAL EVENT Welcome to the exclusive highlight video of The ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/zFS06yD1-HY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/zFS06yD1-HY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/zFS06yD1-HY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Oplus Events",
+                "liveBroadcastContent": "none",
+                "publishTime": "2025-12-03T12:23:52Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "YW4GaAuN0jiqAgcWvFw8PJTg5gw",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "6He4mt2J64g"
+            },
+            "snippet": {
+                "publishedAt": "2025-11-11T13:05:17Z",
+                "channelId": "UCbVXCKRv5sbtV5lcNSgB2IQ",
+                "title": "Givaudan - Gulfood Manufacturer",
+                "description": "Another great project brought to life! ✨ We're proud to have designed and built the Givaudan stand at Gulfood Manufacturing ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/6He4mt2J64g/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/6He4mt2J64g/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/6He4mt2J64g/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Oplus Events",
+                "liveBroadcastContent": "none",
+                "publishTime": "2025-11-11T13:05:17Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "2V5AAedf9aU4Fh-lltmIs9NsWT4",
             "id": {
                 "kind": "youtube#video",
                 "videoId": "w7_W1ytNWUk"
@@ -17,7 +357,7 @@
             "snippet": {
                 "publishedAt": "2024-11-25T13:47:40Z",
                 "channelId": "UCbVXCKRv5sbtV5lcNSgB2IQ",
-                "title": "ISUZU S&E SERIES LAUNCH 2024",
+                "title": "ISUZU S&amp;E SERIES LAUNCH 2024",
                 "description": "highlights from the ISUZU S&E SERIES LAUNCH 2024, organized by OPLUS EVENTS LLC in Riyadh! This exciting event ...",
                 "thumbnails": {
                     "default": {
@@ -43,7 +383,7 @@
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "rKb9n8H04YcHfldAPFqLvO6UMgI",
+            "etag": "bQiDs--bC3zCQOGh72KgCRjLfa0",
             "id": {
                 "kind": "youtube#video",
                 "videoId": "RgIvIbBKR4s"
@@ -77,7 +417,7 @@
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "zwU33h43quisX9hj5TaPN6n7Nog",
+            "etag": "5jehz8Tm1KOZRyezs-EhTUZaHZ0",
             "id": {
                 "kind": "youtube#playlist",
                 "playlistId": "PL_bwj5vX8rj3smVbiJzeONHv7N5zZ33z-"
@@ -111,7 +451,7 @@
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "941azep3cVyOtvJDuMnVvWu2dEE",
+            "etag": "d3rD1SnHJsd5irDlJy9e7NJreP0",
             "id": {
                 "kind": "youtube#video",
                 "videoId": "ts00LqZY_OY"
@@ -145,7 +485,7 @@
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "fBWETs3nO8lbdC0TDcrgcyKgnWA",
+            "etag": "wjXh8vzUBQ81NwhknsjyeG0HpS8",
             "id": {
                 "kind": "youtube#video",
                 "videoId": "gvPbiXFGCjQ"
@@ -179,7 +519,7 @@
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "8T4UN8b2CtvOUq9Mv1Fhz4mfFmM",
+            "etag": "0ebxXIAh4QGDLbBWm7ZmuwZlZVM",
             "id": {
                 "kind": "youtube#video",
                 "videoId": "OG6JkQWRCm4"
@@ -213,7 +553,7 @@
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "awN1BisEuIqrwyY9mmphFtFjx3g",
+            "etag": "9HHMZZq1a-XUCVFUPJp3phYg8sU",
             "id": {
                 "kind": "youtube#video",
                 "videoId": "LDB2S9tSjUQ"
@@ -247,7 +587,7 @@
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "aVmVSXByqkeHo-rdxnN3d1Z_hpw",
+            "etag": "F7wCIdWImuX9PUXrLp9O4zJDSWQ",
             "id": {
                 "kind": "youtube#video",
                 "videoId": "6BMl0QLTw3M"
@@ -281,7 +621,7 @@
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "euexmRc8_dNZFBmZbFyHt9KzAf4",
+            "etag": "pDkVHS1hdFMnFHRR7F5oWTZpE6Y",
             "id": {
                 "kind": "youtube#video",
                 "videoId": "0FMXzmjcgMA"
@@ -315,7 +655,7 @@
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "wNw-eiBh44z1qWan2qkB4HpM2Zc",
+            "etag": "EyNySxD8cXpaEmZC0AY9FoGNGtM",
             "id": {
                 "kind": "youtube#video",
                 "videoId": "gM8-dQQ_jDI"
@@ -349,7 +689,7 @@
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "dERmudkqap2xbKtIrxR8RtnAZC4",
+            "etag": "jPO0WPqdbh0ORqe_uRnfE6MXtb4",
             "id": {
                 "kind": "youtube#video",
                 "videoId": "pCVgMn-II4Q"
@@ -383,7 +723,7 @@
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "mupjvusLLC2a5Im8Mkxgv2GIe6I",
+            "etag": "tX2j7AjZ4nC5EHROeOETWJPoA8g",
             "id": {
                 "kind": "youtube#video",
                 "videoId": "_Welh6wvAvw"
@@ -417,7 +757,7 @@
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "o6Tv_v97uzt_O-Zp6xCooSL7dZw",
+            "etag": "usRt6twxYEK6Eg5pFQ_yB6-D_tI",
             "id": {
                 "kind": "youtube#video",
                 "videoId": "eZpJgQPW5M0"
@@ -451,7 +791,7 @@
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "yqcDn-YGRzdAPcIeQlUoYY5PJWM",
+            "etag": "JsiQw0_s8OaLMGOtXgd_HMhxC4Y",
             "id": {
                 "kind": "youtube#video",
                 "videoId": "w5DbjlVgUY0"
@@ -485,7 +825,7 @@
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "BxwwbOYaR3G1y8dE__--Dm2Sj7Q",
+            "etag": "U2qK_pJIB81jWvG-UQTRZrmY0K8",
             "id": {
                 "kind": "youtube#video",
                 "videoId": "vdjf1dW2_cc"
@@ -519,7 +859,7 @@
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "5UQ-DC-3WWINxeJBoDFb1JPBcYU",
+            "etag": "me4bZJnlgRqPIK0bdKVPBvEow1s",
             "id": {
                 "kind": "youtube#video",
                 "videoId": "BOae_4Y5gl8"
@@ -553,7 +893,7 @@
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "9ydHVtAXez4JdDuUzst8rH7nttg",
+            "etag": "KL976_9OFVq2PXeJ9SvlN-oIqiE",
             "id": {
                 "kind": "youtube#video",
                 "videoId": "IqSCaSRDXdo"
@@ -587,7 +927,7 @@
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "7OdQGdfsAVcM7Ohd8a3VfLnsM28",
+            "etag": "nLCjPV9jB1AZbgKN_-8xZGv04d8",
             "id": {
                 "kind": "youtube#video",
                 "videoId": "Hibf0F0-mV4"
@@ -621,7 +961,7 @@
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "5L33EjOvNkaVbON1EjWSkrLoIoY",
+            "etag": "AjWJXDsfObIMyONOiXjL1dxtAAU",
             "id": {
                 "kind": "youtube#video",
                 "videoId": "bDDrMmv-faU"
@@ -655,7 +995,7 @@
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "VOageOgPC2_K9LBaEV9kFGzy3p4",
+            "etag": "47Q-aLIogpHSqfb5u9k_4t1rA7M",
             "id": {
                 "kind": "youtube#video",
                 "videoId": "8iatfGto0nM"
@@ -689,7 +1029,7 @@
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "kOHCqJ2-C_7xMMzt8DKbtpaN7mc",
+            "etag": "dTgigZGmyMnuCSB_J-4xQO6yJ3I",
             "id": {
                 "kind": "youtube#video",
                 "videoId": "3Ur6mx39-Ns"
@@ -723,7 +1063,7 @@
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "hXjeEu8SbPEPRa1NJOEGj41QbGc",
+            "etag": "iFdgwcibzivmYvY-4NxuAhtaXvY",
             "id": {
                 "kind": "youtube#video",
                 "videoId": "f0czG3M60xE"
@@ -757,7 +1097,7 @@
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "fQzN62vds8bz5HoVgCHyLuI721I",
+            "etag": "AfpqaNpAhKQqPpycbO_Ewv0ST1s",
             "id": {
                 "kind": "youtube#video",
                 "videoId": "ovbNE8t3MJA"
@@ -791,7 +1131,7 @@
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "xZn5jIEaZ9QOY_nhP18K2lHDY8M",
+            "etag": "4pJLVoPAo_sBD06tPMm5z_E5eUY",
             "id": {
                 "kind": "youtube#video",
                 "videoId": "Nu4w2bINFEk"
@@ -825,7 +1165,7 @@
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "IYkTL4KgNzToeKexdq2U5bsj3tU",
+            "etag": "D5os5uYA_W2kzR8OSZA7fEeNAZw",
             "id": {
                 "kind": "youtube#video",
                 "videoId": "7JblPs3r2zY"
@@ -859,7 +1199,7 @@
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "XCXgalyrQ1KAevQC0MTIQ0FDH2s",
+            "etag": "9MlhBRXZgEVli6gDomfYsBnJHDs",
             "id": {
                 "kind": "youtube#video",
                 "videoId": "kQfqS36_j_4"
@@ -893,7 +1233,7 @@
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "GLduS2Exau5rnrZf8V0wlVgh1jg",
+            "etag": "jvMfde5Turoc-ZFpT21tDFCB3AU",
             "id": {
                 "kind": "youtube#video",
                 "videoId": "UQzQ-EWRrbo"
@@ -927,7 +1267,7 @@
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "APDNB6mTJCzV05psdbv8EbwOcx4",
+            "etag": "gxaHK5ElplwIGimvytkfrejiyY4",
             "id": {
                 "kind": "youtube#video",
                 "videoId": "UCDjHZG2ceE"
@@ -961,7 +1301,7 @@
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "y6rF-tRmjWie4zgPKd1xIxRH_lI",
+            "etag": "ij6CfPutkKIHHYgsisDMELIoM7M",
             "id": {
                 "kind": "youtube#video",
                 "videoId": "4iV1nTWE8Ao"
@@ -995,7 +1335,7 @@
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "yWbcjOtCEqap-1JK4pUWPdCXQGU",
+            "etag": "JjJVOoP4LTKyerURtuzZYypu-dY",
             "id": {
                 "kind": "youtube#video",
                 "videoId": "L1bCjHeZdKM"
@@ -1029,7 +1369,7 @@
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "V8ufJxguKqOpKngeKmpLFuktwQs",
+            "etag": "BPAgd6rbLgA-XzhG-3fIOHxFMPk",
             "id": {
                 "kind": "youtube#channel",
                 "channelId": "UCbVXCKRv5sbtV5lcNSgB2IQ"
@@ -1041,13 +1381,13 @@
                 "description": "Showcasing the best of Events and Communications in the Middle East. Experience with Oplus the difference that only an ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://yt3.ggpht.com/eO9OEMpTjaOysOliAChlPVw436_mpJAiEr3HWF2F25Sj61w_J8qT2YL5DcstKNuW0h3Hxibx=s88-c-k-c0xffffffff-no-rj-mo"
+                        "url": "https://yt3.ggpht.com/PI7VNqwsVqY1iGo-ccCA6TTDsemF-Z6vmqACaPdLWiy7oKa0FlQvNwjDWRwPVifl5FpuoDPqwA=s88-c-k-c0xffffffff-no-rj-mo"
                     },
                     "medium": {
-                        "url": "https://yt3.ggpht.com/eO9OEMpTjaOysOliAChlPVw436_mpJAiEr3HWF2F25Sj61w_J8qT2YL5DcstKNuW0h3Hxibx=s240-c-k-c0xffffffff-no-rj-mo"
+                        "url": "https://yt3.ggpht.com/PI7VNqwsVqY1iGo-ccCA6TTDsemF-Z6vmqACaPdLWiy7oKa0FlQvNwjDWRwPVifl5FpuoDPqwA=s240-c-k-c0xffffffff-no-rj-mo"
                     },
                     "high": {
-                        "url": "https://yt3.ggpht.com/eO9OEMpTjaOysOliAChlPVw436_mpJAiEr3HWF2F25Sj61w_J8qT2YL5DcstKNuW0h3Hxibx=s800-c-k-c0xffffffff-no-rj-mo"
+                        "url": "https://yt3.ggpht.com/PI7VNqwsVqY1iGo-ccCA6TTDsemF-Z6vmqACaPdLWiy7oKa0FlQvNwjDWRwPVifl5FpuoDPqwA=s800-c-k-c0xffffffff-no-rj-mo"
                     }
                 },
                 "channelTitle": "Oplus Events",
