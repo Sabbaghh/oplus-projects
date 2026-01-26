@@ -9,40 +9,6 @@
     "items": [
         {
             "kind": "youtube#searchResult",
-            "etag": "OxuLGnkHIaff93YbbPjgdUqmUpQ",
-            "id": {
-                "kind": "youtube#video",
-                "videoId": "T7gqqlByq6s"
-            },
-            "snippet": {
-                "publishedAt": "2026-01-05T07:34:34Z",
-                "channelId": "UCbVXCKRv5sbtV5lcNSgB2IQ",
-                "title": "ANIME HUB - AL BAHYA PARK",
-                "description": "",
-                "thumbnails": {
-                    "default": {
-                        "url": "https://i.ytimg.com/vi/T7gqqlByq6s/default.jpg",
-                        "width": 120,
-                        "height": 90
-                    },
-                    "medium": {
-                        "url": "https://i.ytimg.com/vi/T7gqqlByq6s/mqdefault.jpg",
-                        "width": 320,
-                        "height": 180
-                    },
-                    "high": {
-                        "url": "https://i.ytimg.com/vi/T7gqqlByq6s/hqdefault.jpg",
-                        "width": 480,
-                        "height": 360
-                    }
-                },
-                "channelTitle": "Oplus Events",
-                "liveBroadcastContent": "none",
-                "publishTime": "2026-01-05T07:34:34Z"
-            }
-        },
-        {
-            "kind": "youtube#searchResult",
             "etag": "RHUycjAJcGSNluoi6rebj0-wHXA",
             "id": {
                 "kind": "youtube#video",
